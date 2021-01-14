@@ -13,21 +13,21 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package edu.kit.datamanager.pit.configuration;
-
-import org.springframework.boot.autoconfigure.domain.EntityScan;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
-import org.springframework.transaction.annotation.EnableTransactionManagement;
+//package edu.kit.datamanager.pit.configuration;
+//
+//import org.springframework.boot.autoconfigure.domain.EntityScan;
+//import org.springframework.context.annotation.Configuration;
+//import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+//import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 /**
  *
  * @author jejkal
  */
-@Configuration
-@EnableTransactionManagement
-@EnableJpaRepositories(basePackages = "edu.kit.datamanager.pit")
-@EntityScan(basePackages = {"edu.kit.datamanager.pit"})
-public class JPAPersistenceConfig{
-
-}
+//@Configuration
+//@EnableTransactionManagement
+//@EnableJpaRepositories(basePackages = "edu.kit.datamanager.pit")
+//@EntityScan(basePackages = {"edu.kit.datamanager.pit"})
+//public class JPAPersistenceConfig{
+//
+//}
