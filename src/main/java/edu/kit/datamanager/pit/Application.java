@@ -42,7 +42,7 @@ import java.util.concurrent.TimeUnit;
 import org.apache.http.client.HttpClient;
 import org.apache.http.impl.client.cache.CacheConfig;
 import org.apache.http.impl.client.cache.CachingHttpClientBuilder;
-
+import org.javers.spring.boot.sql.JaversSqlAutoConfiguration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -75,7 +75,8 @@ import org.springframework.web.client.RestTemplate;
 @EnableAutoConfiguration(exclude = {
     DataSourceAutoConfiguration.class,
     DataSourceTransactionManagerAutoConfiguration.class,
-    HibernateJpaAutoConfiguration.class
+    HibernateJpaAutoConfiguration.class,
+    JaversSqlAutoConfiguration.class
 })
 public class Application {
 
